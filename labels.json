@@ -377,12 +377,12 @@
     },
      {
       "lat": 77,
-      "lng": 61,
+      "lng": 58,
       "size": 1.5,
       "dotradius": 0,
       "color": "#202124",
       "text": "The Watchers",
-      "rotation": "0"
+      "rotation": "5"
     },
     {
       "lat": 85,
