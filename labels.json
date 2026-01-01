@@ -302,7 +302,7 @@
       "rotation": "0"
     }
   ],
-  "bodies_of_water": [
+  "geography": [
     {
       "lat": 0,
       "lng": -165,
