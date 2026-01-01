@@ -377,7 +377,7 @@
     },
      {
       "lat": 77,
-      "lng": 58,
+      "lng": 56.5,
       "size": 1.5,
       "dotradius": 0,
       "color": "#202124",
@@ -385,13 +385,13 @@
       "rotation": "5"
     },
     {
-      "lat": 99,
+      "lat": 89,
       "lng": 0,
       "size": 2,
       "dotradius": 0,
       "color": "#202124",
       "text": "The Wastes",
-      "rotation": "45"
+      "rotation": "50"
     }
   ]
 }
