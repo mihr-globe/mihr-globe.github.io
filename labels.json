@@ -27,7 +27,6 @@
       "text": "stuff",
       "rotation": "0"
     },
-  
     {
       "lat": 35,
       "lng": 65,
@@ -56,15 +55,6 @@
       "rotation": "0"
     },
     {
-      "lat": 60,
-      "lng": 185,
-      "size": 3,
-      "dotradius": 0,
-      "color": "#000000",
-      "text": "empire region",
-      "rotation": "0"
-    },
-    {
       "lat": 85,
       "lng": 50,
       "size": 2,
@@ -82,6 +72,15 @@
       "dotradius": 0,
       "color": "#202124",
       "text": "Sanctuary",
+      "rotation": "0"
+    },
+    {
+      "lat": 60,
+      "lng": 185,
+      "size": 2.2,
+      "dotradius": 0,
+      "color": #202124",
+      "text": "empire region",
       "rotation": "0"
     },
     {
