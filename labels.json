@@ -1,0 +1,22 @@
+{
+    "continents": [
+      {
+        "lat": -5,
+        "lng": -30,
+        "size": 5,
+        "dotradius": 0,
+        "color": "#000000",
+        "text": "Oxrangi",
+        "rotation": 0
+      }
+    ],
+    "nations": [
+
+    ],
+    "cities": [
+
+    ],
+    "bodies_of_water": [
+
+    ]
+}
