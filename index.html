@@ -23,10 +23,18 @@
       <option value="mihr2.png">Default</option>
       <option value="mihr-borders.png">Borders</option>
     </select>
+    <select id="locations-select">
+      <option value="all">All</option>
+      <option value="continents">Continents</option>
+      <option value="nations">Nations</option>
+      <option value="cities">Cities</option>
+      <option value="bodies_of_water">Bodies of Water</option>
+    </select>
   </div>
   <script type="module">
     const loader = new THREE.FontLoader();
     const font = await loader.loadAsync('font.json');
+    const geoData = await fetch('https://raw.githubusercontent.com/mihr-globe/mihr-globe.github.io/refs/heads/main/labels.json').then(res => res.json());
     const locations = [
       {
         lat: 0,
@@ -437,7 +445,9 @@
       },
     ];
 
-    let globe = setupGlobe('https://raw.githubusercontent.com/mihr-globe/mihr-globe.github.io/refs/heads/main/mihr2.png')
+    let layer = 'mihr2.png';
+    let locationsLayer = 'all';
+    let globe = setupGlobe('https://raw.githubusercontent.com/mihr-globe/mihr-globe.github.io/refs/heads/main/mihr2.png', "all")
 
     // Setup renderer
     const renderer = new THREE.WebGLRenderer();
@@ -468,12 +478,30 @@
 
     animate();
 
-    function setupGlobe(globeImageUrl) {
+    function setupGlobe(globeImageUrl, locations) {
+      let labels = [];
+      switch (locations) {
+        case "all":
+          labels = [...geoData.continents, ...geoData.nations, ...geoData.cities, ...geoData.bodies_of_water];
+          break;
+        case "continents":
+          labels = geoData.continents;
+          break;
+        case "nations":
+          labels = geoData.nations;
+          break;
+        case "cities":
+          labels = geoData.cities;
+          break;
+        case "bodies_of_water":
+          labels = geoData.bodies_of_water;
+          break;
+      }
       return new ThreeGlobe()
         .globeImageUrl(globeImageUrl)
         .showAtmosphere(false)
         .showGraticules(true)
-        .labelsData(locations)
+        .labelsData(labels)
         .labelResolution([5])
         .labelText('text')
         .labelRotation('rotation')
@@ -483,14 +511,20 @@
         .labelTypeFace(font.data);
     }
 
-    const selectElement = document.getElementById('layer-select');
+    const layerSelect = document.getElementById('layer-select');
+    const locationsSelect = document.getElementById('locations-select');
 
-    // Add a 'change' event listener
-    selectElement.addEventListener('change', (event) => {
-      // Get the new value from the event target
-      const newValue = event.target.value;
+    layerSelect.addEventListener('change', (event) => {
+      layer = event.target.value;
       scene.remove(globe);
-      globe = setupGlobe('https://raw.githubusercontent.com/mihr-globe/mihr-globe.github.io/refs/heads/main/' + newValue);
+      globe = setupGlobe('https://raw.githubusercontent.com/mihr-globe/mihr-globe.github.io/refs/heads/main/' + layer, locationsLayer);
+      scene.add(globe);
+    });
+
+    locationsSelect.addEventListener('change', (event) => {
+      locationsLayer = event.target.value;
+      scene.remove(globe);
+      globe = setupGlobe('https://raw.githubusercontent.com/mihr-globe/mihr-globe.github.io/refs/heads/main/' + layer, locationsLayer);
       scene.add(globe);
     });
   </script>
