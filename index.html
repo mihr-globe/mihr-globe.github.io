@@ -20,7 +20,7 @@
   <div id="globeViz"></div>
   <div style="position: absolute; top: 10px; left: 10px; z-index: 1;">
     <select id="layer-select">
-      <option value="mihr4.png">Default</option>
+      <option value="mihr2.png">Default</option>
       <option value="mihr-borders.png">Borders</option>
     </select>
     <select id="locations-select">
@@ -35,9 +35,9 @@
     const loader = new THREE.FontLoader();
     const font = await loader.loadAsync('font.json');
     const geoData = await fetch('https://raw.githubusercontent.com/mihr-globe/mihr-globe.github.io/refs/heads/main/labels.json').then(res => res.json());
-    let layer = 'mihr4.png';
+    let layer = 'mihr2.png';
     let locationsLayer = 'all';
-    let globe = setupGlobe('https://raw.githubusercontent.com/mihr-globe/mihr-globe.github.io/refs/heads/main/mihr4.png', "all")
+    let globe = setupGlobe('https://raw.githubusercontent.com/mihr-globe/mihr-globe.github.io/refs/heads/main/mihr2.png', "all")
 
     // Setup renderer
     const renderer = new THREE.WebGLRenderer();
