@@ -305,7 +305,7 @@
   "geography": [
     {
       "lat": 5,
-      "lng": 180,
+      "lng": -155,
       "size": 1.5,
       "dotradius": 0,
       "color": "#E9ECF5",
@@ -385,7 +385,7 @@
       "rotation": "5"
     },
     {
-      "lat": 85,
+      "lat": 90,
       "lng": 0,
       "size": 2,
       "dotradius": 0,
