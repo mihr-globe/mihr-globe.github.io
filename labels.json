@@ -9,14 +9,335 @@
         "text": "Oxrangi",
         "rotation": 0
       }
+         {
+        lat: 39,
+        lng: -79,
+        size: 5,
+        dotradius: 0,
+        color: '#000000',
+        text: 'Ubera',
+        rotation: '0'
+      },
+      {
+        lat: -30,
+        lng: -93,
+        size: 5,
+        dotradius: 0,
+        color: '#000000',
+        text: 'g2 + more',
+        rotation: '0'
+      },
+      {
+        lat: -40,
+        lng: 50,
+        size: 4,
+        dotradius: 0,
+        color: '#000000',
+        text: 'continent/\ngith nation',
+        rotation: '0'
+      },
+      {
+        lat: 35,
+        lng: 65,
+        size: 5,
+        dotradius: 0,
+        color: '#000000',
+        text: 'Aeretis',
+        rotation: '0'
+      },
+      {
+        lat: 25,
+        lng: 135,
+        size: 5,
+        dotradius: 0,
+        color: '#000000',
+        text: 'continent east',
+        rotation: '0'
+      },
+      {
+        lat: -47,
+        lng: 160,
+        size: 5,
+        dotradius: 0,
+        color: '#000000',
+        text: 'Xel-hun',
+        rotation: '0'
+      },
+      {
+        lat: 60,
+        lng: 185,
+        size: 3,
+        dotradius: 0,
+        color: '#000000',
+        text: 'empire region',
+        rotation: '0'
+      },
+      {
+        lat: -34,
+        lng: -24,
+        size: 4,
+        dotradius: 0,
+        color: '#000000',
+        text: 'continent/nation s',
+        rotation: '0'
+      },
+      {
+        lat: 85,
+        lng: 50,
+        size: 2,
+        dotradius: 0,
+        color: '#202124',
+        text: 'The Wastes',
+        rotation: '0'
+      },
     ],
     "nations": [
-
+ {
+        lat: 46.5,
+        lng: 14.7,
+        size: 1,
+        dotradius: 0,
+        color: '#202124',
+        text: 'Sanctuary',
+        rotation: '0'
+      },
+      {
+        lat: 44,
+        lng: -95,
+        size: 2.2,
+        dotradius: 0,
+        color: '#202124',
+        text: 'Kingdom of Ubera',
+        rotation: '0'
+      },
+      {
+        lat: 40,
+        lng: -65,
+        size: 2.2,
+        dotradius: 0,
+        color: '#202124',
+        text: 'various countries',
+        rotation: '0'
+      },
+      {
+        lat: 44,
+        lng: 30,
+        size: 2.2,
+        dotradius: 0,
+        color: '#202124',
+        text: 'Frontier Federation',
+        rotation: '0'
+      },
+      {
+        lat: 9.5,
+        lng: -24,
+        size: 2.2,
+        dotradius: 0,
+        color: '#202124',
+        text: 'Chuasau',
+        rotation: '0'
+      },
+      {
+        lat: 25,
+        lng: 85,
+        size: 2.2,
+        dotradius: 0,
+        color: '#202124',
+        text: 'Sedulga Empire',
+        rotation: '0'
+      },
     ],
     "cities": [
-
+{
+        lat: 27,
+        lng: 46,
+        size: 1.5,
+        dotradius: 0.5,
+        color: '#D8D0C1',
+        text: 'Koslaborg',
+        rotation: '0'
+      },
+      {
+        lat: 65,
+        lng: 49,
+        size: 1.5,
+        dotradius: 0.5,
+        color: '#D8D0C1',
+        text: 'Elishny',
+        rotation: '0'
+      },
+      {
+        lat: 12,
+        lng: -31.5,
+        size: 1,
+        dotradius: 0.5,
+        color: '#D8D0C1',
+        text: 'Zudora',
+        rotation: '0'
+      },
+      {
+        lat: 0,
+        lng: -20.5,
+        size: 1.5,
+        dotradius: 0.5,
+        color: '#D8D0C1',
+        text: 'Aekebo',
+        rotation: '0'
+      },
+      {
+        lat: 15,
+        lng: -102,
+        size: 1.5,
+        dotradius: 0.5,
+        color: '#D8D0C1',
+        text: 'Truanard',
+        rotation: '0'
+      },
+      {
+        lat: -3.5,
+        lng: 51,
+        size: 1.5,
+        dotradius: 0.5,
+        color: '#D8D0C1',
+        text: 'Sistrilia',
+        rotation: '0'
+      },
+      {
+        lat: 35,
+        lng: -110,
+        size: 1.5,
+        dotradius: 0.5,
+        color: '#D8D0C1',
+        text: 'Sillenor',
+        rotation: '0'
+      },
+      {
+        lat: 8,
+        lng: -78.5,
+        size: 1.3,
+        dotradius: 0.5,
+        color: '#D8D0C1',
+        text: 'Tethys',
+        rotation: '0'
+      },
+      {
+        lat: 12,
+        lng: 94,
+        size: 1.5,
+        dotradius: 0.5,
+        color: '#D8D0C1',
+        text: 'Tvelsk',
+        rotation: '0'
+      },
+      {
+        lat: 8,
+        lng: 45,
+        size: 1,
+        dotradius: 0.2,
+        color: '#D8D0C1',
+        text: 'Hazelvale',
+        rotation: '0'
+      },
+      {
+        lat: 44,
+        lng: 15,
+        size: 1,
+        dotradius: 0.2,
+        color: '#D8D0C1',
+        text: 'The Verge',
+        rotation: '0'
+      },
+      {
+        lat: 28,
+        lng: 13.5,
+        size: 1,
+        dotradius: 0.2,
+        color: '#D8D0C1',
+        text: 'Milogost',
+        rotation: '0'
+      },
+        {
+        lat: 11,
+        lng: -72,
+        size: 1,
+        dotradius: 0.2,
+        color: '#D8D0C1',
+        text: 'Tarouse',
+        rotation: '0'
+      },
+      {
+        lat: 20,
+        lng: -76,
+        size: 1,
+        dotradius: 0.2,
+        color: '#D8D0C1',
+        text: 'Ryereach',
+        rotation: '0'
+      },
+      {
+        lat: 46,
+        lng: 50,
+        size: 1,
+        dotradius: 0.2,
+        color: '#D8D0C1',
+        text: 'Crigpob',
+        rotation: '0'
+      },
     ],
     "bodies_of_water": [
-
+{
+        lat: 0,
+        lng: -165,
+        size: 1.5,
+        dotradius: 0,
+        color: '#E9ECF5',
+        text: 'The Expanse',
+        rotation: '0'
+      },
+      {
+        lat: -88.5,
+        lng: 0,
+        size: 1.5,
+        dotradius: 0,
+        color: '#E9ECF5',
+        text: 'Wild Waters',
+        rotation: '0'
+      },
+      {
+        lat: -20,
+        lng: -60,
+        size: 1.5,
+        dotradius: 0,
+        color: '#E9ECF5',
+        text: 'Coalescent Sea',
+        rotation: '0'
+      },
+      {
+        lat: -25,
+        lng: 125,
+        size: 1.5,
+        dotradius: 0,
+        color: '#E9ECF5',
+        text: '[sea]',
+        rotation: '0'
+      },
+      {
+        lat: 4,
+        lng: -16,
+        size: 1,
+        dotradius: 0,
+        color: '#E9ECF5',
+        text: 'Oxrangi Bay',
+        rotation: '0'
+      },
+      {
+        lat: 40,
+        lng: -15,
+        size: 1.5,
+        dotradius: 0,
+        color: '#E9ECF5',
+        text: 'Pelanoch Sea',
+        rotation: '0'
+      },
     ]
 }
