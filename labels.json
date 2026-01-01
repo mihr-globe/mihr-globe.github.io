@@ -18,13 +18,13 @@
       "text": "Ubera",
       "rotation": "0"
     },
-    {
+        {
       "lat": -30,
       "lng": -93,
       "size": 5,
       "dotradius": 0,
       "color": "#000000",
-      "text": "g2 + more",
+      "text": "stuff",
       "rotation": "0"
     },
     {
@@ -139,13 +139,22 @@
     },
     {
       "lat": 25,
-      "lng": 85,
+      "lng": 63,
       "size": 2.2,
       "dotradius": 0,
       "color": "#202124",
       "text": "Sedulga Empire",
       "rotation": "0"
     }
+        {
+      "lat": -19,
+      "lng": -87,
+      "size": 2.2,
+      "dotradius": 0,
+      "color": "#202124",
+      "text": "g2",
+      "rotation": "0"
+    },
   ],
   "cities": [
     {
@@ -185,8 +194,8 @@
       "rotation": "0"
     },
     {
-      "lat": 15,
-      "lng": -102,
+      "lat": 22,
+      "lng": -105,
       "size": 1.5,
       "dotradius": 0.5,
       "color": "#D8D0C1",
@@ -203,8 +212,8 @@
       "rotation": "0"
     },
     {
-      "lat": 35,
-      "lng": -110,
+      "lat": 36,
+      "lng": -105,
       "size": 1.5,
       "dotradius": 0.5,
       "color": "#D8D0C1",
@@ -266,8 +275,8 @@
       "rotation": "0"
     },
     {
-      "lat": 20,
-      "lng": -76,
+      "lat": 18,
+      "lng": -80,
       "size": 1,
       "dotradius": 0.2,
       "color": "#D8D0C1",
