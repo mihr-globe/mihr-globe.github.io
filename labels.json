@@ -4,7 +4,7 @@
       "lat": 0,
       "lng": 0,
       "size": 2,
-      "dotradius": 2,
+      "dotradius": 1,
       "color": "#000000",
       "text": "0,0",
       "rotation": 0
