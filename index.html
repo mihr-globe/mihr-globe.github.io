@@ -28,7 +28,7 @@
       <option value="continents">Continents</option>
       <option value="nations">Nations</option>
       <option value="cities">Cities</option>
-      <option value="bodies_of_water">Bodies of Water</option>
+      <option value="bodies_of_water">Geography</option>
     </select>
   </div>
   <script type="module">
@@ -72,7 +72,7 @@
       let labels = [];
       switch (locations) {
         case "all":
-          labels = [...geoData.continents, ...geoData.nations, ...geoData.cities, ...geoData.bodies_of_water];
+          labels = [...geoData.continents, ...geoData.nations, ...geoData.cities, ...geoData._of_water];
           break;
         case "continents":
           labels = geoData.continents;
