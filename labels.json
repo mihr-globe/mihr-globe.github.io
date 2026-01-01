@@ -89,7 +89,7 @@
       "color": "#202124",
       "text": "The Wastes",
       "rotation": "0"
-    },
+    }
   ],
   "nations": [
     {
@@ -154,7 +154,7 @@
       "color": "#202124",
       "text": "g2",
       "rotation": "0"
-    },
+    }
   ],
   "cities": [
     {
@@ -291,7 +291,7 @@
       "color": "#D8D0C1",
       "text": "Crigpob",
       "rotation": "0"
-    },
+    }
   ],
   "bodies_of_water": [
     {
@@ -347,6 +347,6 @@
       "color": "#E9ECF5",
       "text": "Pelanoch Sea",
       "rotation": "0"
-    },
+    }
   ]
 }
