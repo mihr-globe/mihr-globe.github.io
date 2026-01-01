@@ -364,7 +364,7 @@
       "dotradius": 0,
       "color": "#202124",
       "text": "Adamantine Peaks",
-      "rotation": "0"
+      "rotation": "-20"
     },
     {
       "lat": 40,
@@ -373,7 +373,7 @@
       "dotradius": 0,
       "color": "#202124",
       "text": "Silverridge",
-      "rotation": "0"
+      "rotation": "-45"
     },
      {
       "lat": 64,
