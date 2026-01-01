@@ -30,7 +30,7 @@
     {
       "lat": -30,
       "lng": -93,
-      "size": 4.5,
+      "size": 4,
       "dotradius": 0,
       "color": "#000000",
       "text": "stuff",
@@ -48,7 +48,7 @@
     {
       "lat": 25,
       "lng": 135,
-      "size": 4.5,
+      "size": 4,
       "dotradius": 0,
       "color": "#000000",
       "text": "Kosor",
@@ -57,19 +57,10 @@
     {
       "lat": -37,
       "lng": 160,
-      "size": 5,
+      "size": 4.5,
       "dotradius": 0,
       "color": "#000000",
       "text": "Xel-hun",
-      "rotation": "0"
-    },
-    {
-      "lat": 85,
-      "lng": 50,
-      "size": 2,
-      "dotradius": 0,
-      "color": "#202124",
-      "text": "The Wastes",
       "rotation": "0"
     }
   ],
@@ -373,6 +364,15 @@
       "dotradius": 0,
       "color": "#202124",
       "text": "Adamantine Peaks",
+      "rotation": "0"
+    },
+    {
+      "lat": 85,
+      "lng": 50,
+      "size": 2,
+      "dotradius": 0,
+      "color": "#202124",
+      "text": "The Wastes",
       "rotation": "0"
     }
   ]
