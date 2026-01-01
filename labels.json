@@ -385,13 +385,13 @@
       "rotation": "5"
     },
     {
-      "lat": 95,
+      "lat": 85,
       "lng": 50,
       "size": 2,
       "dotradius": 0,
       "color": "#202124",
       "text": "The Wastes",
-      "rotation": "45"
+      "rotation": "25"
     }
   ]
 }
