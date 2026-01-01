@@ -27,15 +27,7 @@
       "text": "stuff",
       "rotation": "0"
     },
-    {
-      "lat": -40,
-      "lng": 50,
-      "size": 4,
-      "dotradius": 0,
-      "color": "#000000",
-      "text": "continent/\ngith nation",
-      "rotation": "0"
-    },
+  
     {
       "lat": 35,
       "lng": 65,
@@ -99,6 +91,15 @@
       "dotradius": 0,
       "color": "#202124",
       "text": "island nation",
+      "rotation": "0"
+    },
+     {
+      "lat": -35,
+      "lng": 50,
+      "size": 2.2,
+      "dotradius": 0,
+      "color": "#202124",
+      "text": "gith nation",
       "rotation": "0"
     },
     {
