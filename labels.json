@@ -10,6 +10,15 @@
       "rotation": 0
     },
     {
+      "lat": 0,
+      "lng": 180,
+      "size": 2,
+      "dotradius": 1,
+      "color": "#000000",
+      "text": "0,180",
+      "rotation": 0
+    },
+    {
       "lat": -5,
       "lng": -30,
       "size": 5,
