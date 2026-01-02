@@ -11,5 +11,5 @@ things to maybe add or change / ask james if it's possible :^)
             characters for anything fitting
 - adding and/or changing size of segments (tiles?), alternatively/in addition better wrapping
 - hidden way to toggle coordinate reference markers
-- clicking on certain settlement names opens a map of said place on the side, although that'd take a lot of drawing so huge maybe
+- clicking on certain place names opens a map of said place on the side, although that'd take a lot of drawing so huge maybe
     - additionally/alternatively some info
