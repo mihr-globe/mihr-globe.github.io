@@ -111,8 +111,8 @@
       "rotation": "0"
     },
     {
-      "lat": 40,
-      "lng": -65,
+      "lat": 50,
+      "lng": -62,
       "size": 1.9,
       "dotradius": 0,
       "color": "#202124",
@@ -135,6 +135,15 @@
       "dotradius": 0,
       "color": "#202124",
       "text": "Chuasau",
+      "rotation": "0"
+    },
+    {
+      "lat": -18,
+      "lng": -10,
+      "size": 2.2,
+      "dotradius": 0,
+      "color": "#202124",
+      "text": "other oxrangi country",
       "rotation": "0"
     },
     {
