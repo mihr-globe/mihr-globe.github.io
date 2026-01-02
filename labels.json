@@ -368,11 +368,20 @@
     },
     {
       "lat": 68,
-      "lng": 21.5,
+      "lng": 121.5,
       "size": 1.5,
       "dotradius": 0,
       "color": "#E9ECF5",
       "text": "[names for smaller waters as needed]",
+      "rotation": "0"
+    },
+    {
+      "lat": 35,
+      "lng": 115,
+      "size": 1.5,
+      "dotradius": 0,
+      "color": "#E9ECF5",
+      "text": "[gulf]",
       "rotation": "0"
     },
     {
