@@ -313,8 +313,8 @@
   ],
   "geography": [
     {
-      "lat": 5,
-      "lng": 200,
+      "lat": 7,
+      "lng": 208,
       "size": 1.5,
       "dotradius": 0,
       "color": "#E9ECF5",
@@ -340,13 +340,13 @@
       "rotation": "0"
     },
     {
-      "lat": -30,
+      "lat": -25,
       "lng": 125,
       "size": 1.5,
       "dotradius": 0,
       "color": "#E9ECF5",
       "text": "[ocean i guess]",
-      "rotation": "-30"
+      "rotation": "-35"
     },
     {
       "lat": -12.5,
