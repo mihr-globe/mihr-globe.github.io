@@ -60,6 +60,35 @@
     const controls = new THREE.OrbitControls(camera, renderer.domElement);
     controls.minDistance = 101;
 
+    // Handle globe clicks
+    const raycaster = new THREE.Raycaster();
+    const mouse = new THREE.Vector2();
+
+    window.addEventListener('click', (event) => {
+      mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+      mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+      raycaster.setFromCamera(mouse, camera);
+      const intersects = raycaster.intersectObject(globe);
+      if (intersects.length > 0) {
+        const point = intersects[0].point.normalize();
+        const lat = Math.asin(point.y) * (180 / Math.PI);
+        const lon = Math.atan2(point.x, point.z) * (180 / Math.PI);
+      }
+      if (event.ctrlKey && event.metaKey) {
+        const data = {
+          "lat": lat,
+          "lng": lon,
+          "size": 1.7,
+          "dotradius": 0.5,
+          "color": "#D8D0C1",
+          "text": "New point",
+          "rotation": "0"
+        };
+        navigator.clipboard.writeText(JSON.stringify(data, null, 2));
+        return;
+      };
+    });
+
     function animate() {
       controls.update();
       renderer.render(scene, camera);
@@ -119,4 +148,5 @@
     });
   </script>
 </body>
+
 </html>
